@@ -1,0 +1,158 @@
+body {
+    /* font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px; */
+    /* background-color:blanchedalmond; */
+    background-image: url('contact2.png');
+    background-size:cover;
+    background-attachment: fixed;
+    width: 99%;
+    /* height: 80%; */
+    
+}
+.contact-info {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-left: 500px;
+    /* background-color:rgb(138, 174, 195); */
+    background-color:black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    /* color: #333; */
+    color: white;font-size: 40px;
+
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 10px;
+    color: white;
+    font-size: 20px;
+}
+.social-links {
+    margin-top: 20px;
+}
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    /* color: #333; */
+    color: white;
+}
+.social-links a:last-child {
+    margin-right: 0;
+}
+.icon {
+    margin-right: 5px;
+    font-size: 18px;
+    /* color: #555; */
+    color: white;
+}
+/* .nav{
+position: right;
+color:white;
+
+} */
+.nav {
+position: absolute;
+top: 20px;
+right: 20px; /* Adjust as needed */
+color: white;
+}
+
+a{
+padding:5px 10px;
+color:white;
+font-size: 20px;
+text-decoration:none;
+align-items:right;
+}
+
+a:hover{
+/* color:white; */
+text-decoration: underline;
+text-underline-position:under;
+}
+
+@media only screen and (max-width: 600px) {
+
+    body {
+        background-image: url('contact2.png');
+        background-size: cover;
+        background-attachment: fixed;
+        width: 80%;
+        height: 100vh; /* Adjust height to fit the viewport */
+        padding: 20px;
+        margin: 0; /* Reset margin */
+        font-family: Arial, sans-serif; /* Restore font-family */
+    }
+
+    .contact-info {
+        max-width: 60%; 
+        max-height: 80%; /* Adjust for smaller screens */
+        margin: 0 auto;
+        margin-left: -20px;
+        margin-top: 50px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for better contrast */
+    }
+    
+    h2 {
+        color: white;
+        font-size: 30px; /* Decrease font size for mobile */
+    }
+    
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    li {
+        margin-bottom: 10px;
+        color: white;
+        font-size: 18px; /* Decrease font size for mobile */
+    }
+    
+    .social-links {
+        margin-top: 20px;
+    }
+    
+    .social-links a {
+        display: inline-block;
+        margin-right: 10px;
+        text-decoration: none;
+        color: white;
+        font-size: 18px; /* Decrease font size for mobile */
+    }
+    
+    .icon {
+        margin-right: 5px;
+        font-size: 18px; /* Decrease font size for mobile */
+    }
+    
+    .nav {
+        position: fixed; /* Change to fixed for mobile */
+        top: 20px;
+        right: 20px;
+        color: white;
+        z-index: 999; /* Ensure navigation stays above other elements */
+    }
+    
+    a {
+        padding: 5px 10px;
+        color: white;
+        font-size: 18px; /* Decrease font size for mobile */
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+}

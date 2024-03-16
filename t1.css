@@ -1,0 +1,216 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+
+    /* width: 100%;
+    height: 80%;*/
+    background-image: url('T3.png'); 
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.menu-container {
+    display: flex;
+    max-width: 800px;
+    margin: 40px auto 0;
+    margin-left: 150px;
+    margin-right: 50px;
+}
+
+.starters-container {
+    flex: 1;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+.image-container {
+    text-align: center;
+    display: flex;
+    max-width: 600px;
+    margin: 40px auto 0;
+    margin-left: 20px;
+    margin-right: auto;
+}
+h2{color: white;
+font-size: 30px;}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    color: white;
+}
+
+li {
+    margin-bottom: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.section {
+    padding-left: 20px;
+}
+
+.price {
+    float: right;
+    margin-right: 20px;
+}
+
+.nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+}
+h1 {
+    color: white;
+}
+
+a {
+    padding: 5px 10px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-underline-position: under;
+}
+.spaced-text {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.item-name {
+display: inline-block;
+width: 150px; /* Adjust as needed */
+}
+
+.spacer {
+display: inline-block;
+width: 50px; /* Adjust as needed */
+}
+@media only screen and (max-width: 600px) {
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        width: 80%;
+        height: 100vh;
+        background-image: url('T3.png'); 
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    
+   
+    
+    .menu-container {
+        display: flex;
+        flex-direction: column; /* Change to column layout for mobile */
+        max-width: 100%; /* Adjust max-width for smaller screens */
+        margin: 20px auto 0;
+        padding: 0; /* Reset padding */
+    }
+    
+    .starters-container {
+        flex: 1;
+        padding: 0; /* Reset padding */
+        margin: 0; /* Reset margin */
+    }
+    
+    .image-container {
+        text-align: center;
+        display: flex;
+        flex-direction: column; /* Change to column layout for mobile */
+        max-width: 100%; /* Adjust max-width for smaller screens */
+        margin: 20px auto 0;
+    }
+    
+    h2 {
+        color: white;
+        font-size: 24px; /* Decrease font size for mobile */
+        margin-bottom: 10px; /* Add margin-bottom for spacing */
+    }
+    
+    .section {
+        padding-left: 0; /* Reset padding */
+    }
+    
+    .spaced-text {
+        display: flex;
+        justify-content: space-between; /* Aligns "Item" and "Price" at opposite ends */
+        align-items: baseline; /* Aligns items at their baseline */
+    }
+    
+    .spacer {
+        flex: 1; /* Distributes available space evenly */
+    }
+    
+    ul {
+        list-style-type: none;
+        padding: 0;
+        color: white;
+        margin: 0; /* Reset margin */
+    }
+    
+    li {
+        margin-bottom: 10px; /* Adjust margin as needed */
+        color: white;
+        display: flex; /* Enable flexbox layout */
+        justify-content: space-between; /* Aligns list item content at opposite ends */
+    }
+    
+    .price {
+        margin-left: 10px; /* Add margin between item name and price */
+    }
+    
+    
+    .nav {
+        position: fixed; /* Change to fixed for mobile */
+        top: 20px;
+        right: 20px;
+        color: white;
+        z-index: 999; /* Ensure navigation stays above other elements */
+    }
+    
+    a {
+        padding: 5px 10px;
+        color: white;
+        font-size: 16px; /* Decrease font size for mobile */
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+
+  
+    .normal-size {
+        width: 100%; /* Adjust width for mobile */
+        height: auto; /* Let the height adjust automatically according to the aspect ratio */
+    }
+
+    h1 {
+        color: white;
+        margin-top: 50px;
+    }
+    .back-button {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #ccc;
+        color: #333;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+    .back-button:hover {
+        background-color: #999;
+        color: #fff;
+    }
+    
+}

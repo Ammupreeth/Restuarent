@@ -1,0 +1,21 @@
+#food1,#food2,#food3{
+    background-size:cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin:0px 20px;
+}
+#food1{
+    background-image: url('food1.png');
+    right: 0;
+}
+#food2{
+    background-image: url('food.jpg');
+}
+#food3{
+    background-image: url('SouthIndian.png');
+}
+.menu{
+    display: flex;
+    margin:0px 100px;
+}

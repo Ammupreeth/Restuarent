@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Indian Cuisine</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 20px; 
+            background-image: url('Menu2.png');
+            background-size: cover;
+            display: grid; /* Use grid layout */
+            grid-template-columns: repeat(3, 1fr); /* Three columns */
+            gap: 20px; /* Gap between columns */
+            width: 99%;
+  
+        }
+       
+        h1 {
+            color: palegreen;
+            text-align: center;
+            font-size: 50px;
+            /* margin-top: 2px; */
+            grid-column: 1 / -1; /* Span full width of grid */
+            font-family: 'Dancing Script', cursive;
+            /* top: 10px; */
+            /* 
+             */
+        }
+        /* h3 {
+            color: palegreen;
+            text-align: center;
+            font-weight: 30px;
+            grid-column: 1 / -1; /* Span full width of grid} */
+        
+        h2 {
+            color: orangered;
+            font-style: italic;
+        }
+        ul {
+            list-style-type: circle;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+            color: white;
+        }
+        .section {
+            /* padding: 10px; */
+            padding-left: 100px;
+            border-radius: 5px;
+            /* background-color: rgba(255, 255, 255, 0.7);  */
+            /* Semi-transparent background */
+        }
+        .image-container {
+            grid-column: 1 / -1; /* Span full width of grid */
+            margin-bottom: 20px; /* Add margin at the bottom of the image */
+        }
+        /* .nav{
+    position: relative;
+    /
+    color:white
+    
+}
+a{
+    padding:5px 10px;
+    color:white;
+    font-size: 20px;
+    text-decoration:none;
+    align-items:right;
+} */
+.nav {
+    position: absolute;
+    top: 20px;
+    right: 20px; /* Adjust as needed */
+    color: white;
+}
+
+a{
+    padding:5px 10px;
+    color:white;
+    font-size: 20px;
+    text-decoration:none;
+    align-items:right;
+}
+
+
+a:hover{
+    /* color:white; */
+    text-decoration: underline;
+    text-underline-position:under;
+}
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <!-- <img src="" alt="Indian Cuisine Image" width="200"> -->
+         <!-- Add your image path and adjust width -->
+    </div>
+    <div class="nav">  
+        <a href="index.html">Home</a>
+        <a href="output.html">Menu</a>
+        <a href="about2.html">About</a>
+        <!-- <a href="#">Location</a> -->
+        <a href="contct.html">Contact</a>
+    </div>
+    <h1>Menu</h1>
+    <!-- <h3>Brings out Foody in You!!</h3> -->
+
+    <div class="section">
+        <h2>Starters</h2>
+        <ul >
+            <li>Samosa</li>
+            <li>Pakora</li>
+            <li>Tandoori Chicken</li>
+             <img src="Starter.png" alt="Example Image" width="200" height="150">
+            
+            <!-- Add more starters here -->
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Main Course</h2>
+        <ul>
+            <li>Butter Chicken</li>
+            <li>Rogan Josh</li>
+            <li>Paneer Tikka Masala</li>
+             <img src="maincourse.png" alt="Example Image" width="200" height="150">
+            <!-- Add more main courses here -->
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Desserts</h2>
+        <ul>
+            <li>Gulab Jamun</li>
+            <li>Kheer</li>
+            <li>Rasgulla</li>
+            <img src="dessert.png" alt="Example Image" width="200" height="150">
+            <!-- Add more desserts here -->
+        </ul>
+    </div>
+
+    <div class="bottom">
+        <div class="menu">
+            <div id="food1"></div>
+            <div id="food2"></div>
+            <div id="food3"></div>
+        </div>
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Info</title>
+    <style>
+        body {
+            /* font-style: italic; */
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f7f7f7;
+        }
+         /* .nav{
+    color:black; 
+    position: absolute;
+            top: 20px;
+            left: 20px;} 
+
+a{
+    padding:5px 15px;
+    color:black;
+    font-size: 20px;
+    text-decoration:none;
+    align-items:right;
+} */
+
+.nav {
+    position: absolute;
+    top: 20px;
+    right: 20px; /* Adjust as needed */
+    color: black;
+}
+
+a{
+    padding:5px 10px;
+    color:black;
+    font-size: 20px;
+    text-decoration:none;
+    align-items:right;
+    font-style: Arial;
+}
+a:hover{
+    /* color:white; */
+    text-decoration: underline;
+    text-underline-position:under;
+}
+        .content-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 100%;
+            margin-top: 50px; /* Adjust as needed */
+            font-style: italic;
+        }
+        .content {
+            width: calc(50% - 20px); /* Adjust width and margin as needed */
+            padding: 20px;
+            background-color:whitesmoke; /* For clarity */
+            margin-bottom: 20px; /* Adjust as needed */
+            font-style: italic;
+        }
+        .image-container {
+            width: calc(50% - 20px); /* Adjust width and margin as needed */
+            margin-bottom: 20px; /* Adjust as needed */
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">  
+        <a href="index.html">Home</a>
+        <a href="output.html">Menu</a>
+        <a href="about2.html">About</a>
+        <a href="contct.html">Contact</a>
+    </div>
+    <br>
+    <br>
+    <div class="content-container">
+        <div class="content">
+            <h2>About Our Restaurant</h2>
+            <p>Welcome to our restaurant! We are dedicated to providing our customers with an unforgettable dining experience. Our chefs craft delicious dishes using the finest ingredients, ensuring every bite is bursting with flavor. Whether you're craving traditional favorites or exploring new culinary delights, our menu has something for everyone. Sit back, relax, and enjoy the warm ambiance as we take you on a culinary journey through our exquisite offerings.</p>
+        </div>
+        <div class="image-container">
+            <img src="about.png" alt="Restaurant Image">
+        </div>
+    </div>
+</body>
+</html>
